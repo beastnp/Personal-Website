@@ -1,9 +1,15 @@
 angular.module('noServerApp').controller('portfolioCtrl', function($scope) {
     
-    $scope.flag = true;
+    $scope.flagTop = true;
     
-    $scope.showHide = function() {
-        $scope.flag = !$scope.flag;
+    $scope.showHideTop = function() {
+        $scope.flagTop = !$scope.flagTop;
+    };
+    
+    $scope.flagBottom = true;
+    
+    $scope.showHideBottom = function() {
+        $scope.flagBottom = !$scope.flagBottom;
     };
     
 });
