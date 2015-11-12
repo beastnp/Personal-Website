@@ -7,7 +7,7 @@
         <div class="capabilities-quote">
             Learning how to learn is life's most important skill. - Tony Buzan
         </div>
-        
+
     </div>
 
     <div class="capabilities-main">
@@ -17,6 +17,16 @@
         <br>
         {{ skill.name }}</span>
 
+    </div>
+
+    <div class="resumeButton">
+
+    </div>
+
+    <div class="resume">
+        <button ng-click="showResume()" >Full Resume</button>
+        <br>
+        <object data="app/js/capabilities/NicholasPetersonResume.pdf" ng-show="flag"></object>
     </div>
 
 </div>

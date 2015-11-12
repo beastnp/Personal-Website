@@ -2,4 +2,10 @@ angular.module('noServerApp').controller('capabilitiesCtrl', function($scope, ma
     
     $scope.skills = mainService.skillsArray;
     
+    $scope.flag = false;
+    
+    $scope.showResume = function() {
+        $scope.flag = !$scope.flag;
+    }
+    
 });
