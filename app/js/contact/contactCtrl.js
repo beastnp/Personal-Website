@@ -46,8 +46,8 @@ angular.module('noServerApp').controller('contactCtrl', function ($scope, $http)
     //        return date.toLocaleDateString();
     //    };
 
-
-    //         var time = currentDate();
+    //      $scope.submit = function() {
+    //        var time = currentDate();
     //        var emailObj = {
     //            emailDate: time,
     //            emailCompose: $scope.emailCompose,

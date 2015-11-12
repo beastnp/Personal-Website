@@ -165,10 +165,22 @@ a:visited {
     text-align: center;
     margin-top: 50px;
 }
+
 .resume object {
     width: 80%;
     height: 1000px;
     margin-top: 40px;
+}
+
+.resume object,
+.resume button {
+    border-radius: 10px;
+}
+
+.resume button {
+    font-size: 14px;
+    width: 150px;
+    background-color: aqua;
 }
 
 .contact-header h1,
@@ -241,4 +253,3 @@ a:visited {
 .admin-email-list div {
     border: 1px solid black;
 }
-
