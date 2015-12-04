@@ -1,4 +1,4 @@
-angular.module('noServerApp').controller('contactCtrl', function ($scope, $http) {
+angular.module('noServerApp').controller('contactCtrl', function ($scope, $http, keysService) {
 
     $scope.email = {
         username: "",
@@ -9,7 +9,7 @@ angular.module('noServerApp').controller('contactCtrl', function ($scope, $http)
 
     $scope.submit = function () {
         var emailData = {
-            key: 'FuAGo8ecRDcpQAeCaI5kew',
+            key: keysService.mandrillKey,
             message: {
                 from_email: $scope.email.userEmail,
                 to: [
