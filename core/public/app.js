@@ -5,22 +5,22 @@ angular.module('noServerApp', ['ui.router', 'firebase'])
     $stateProvider
         .state('home', {
             url: '/home',
-            templateUrl: 'app/js/home/homeTmpl.html',
+            templateUrl: 'features/home/homeTmpl.html',
             controller: 'homeCtrl'
         })
         .state('portfolio', {
             url: '/portfolio',
-            templateUrl: 'app/js/portfolio/portfolioTmpl.html',
+            templateUrl: 'features/portfolio/portfolioTmpl.html',
             controller: 'portfolioCtrl'
         }) 
         .state('capabilities', {
             url: '/capabilities',
-            templateUrl: 'app/js/capabilities/capabilitiesTmpl.html',
+            templateUrl: 'features/capabilities/capabilitiesTmpl.html',
             controller: 'capabilitiesCtrl'
         })
         .state('contact', {
             url: '/contact',
-            templateUrl: 'app/js/contact/contactTmpl.html',
+            templateUrl: 'features/contact/contactTmpl.html',
             controller: 'contactCtrl'
         });
     
